@@ -53,7 +53,7 @@ class LaneLines:
 
         lines_image = self.hough_lines(masked_edges, rho, theta, threshold, min_line_len, max_line_gap)
 
-        # 6. Combine the lines image with the lines image
+        # 6. Combine the lines image with the original image
         lines_edges = self.weighted_img(lines_image, image)
 
         return lines_edges
