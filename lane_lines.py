@@ -37,8 +37,8 @@ class LaneLines:
         bottom_right_x = x_size
         bottom_right_y = y_size
 
-        vertices = np.array([[(apex_x, apex_y), 
-                              (bottom_left_x, bottom_left_y), 
+        vertices = np.array([[(apex_x, apex_y),
+                              (bottom_left_x, bottom_left_y),
                               (bottom_right_x, bottom_right_y)]],
                             dtype=np.int32)
 
@@ -228,11 +228,11 @@ def process_video(video_file_name):
 # process_image("test_images/solidYellowCurve.jpg")
 # process_image("test_images/solidYellowCurve2.jpg")
 # process_image("test_images/solidYellowLeft.jpg")
-# process_image("test_images/challenge/challenge4.jpg")
-# process_image("test_images/challenge/challenge6.jpg")
-# process_image("test_images/challenge/challenge7.jpg")
-# process_image("test_images/challenge/challenge8.jpg")
-# process_image("test_images/challenge/challenge9.jpg")
+# process_image("test_images/challenge4.jpg")
+# process_image("test_images/challenge6.jpg")
+# process_image("test_images/challenge7.jpg")
+# process_image("test_images/challenge8.jpg")
+# process_image("test_images/challenge9.jpg")
 
 # Uncomment to run pipeline on a video
 
